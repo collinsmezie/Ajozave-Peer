@@ -1,25 +1,31 @@
-// // src/App.js
-// import React from 'react';
-// import Header from './components/Header';
-// import AccountSection from './components/AccountSection';
-// import QuickLinks from './components/QuickLinks';
-// import SpecialOffers from './components/SpecialOffers';
-// import BottomNavigation from './components/BottomNavigation';
-// // import './App.css';
 
-// function App() {
-//   return (
-//     <div className="app">
-//       <Header />
-//       <AccountSection />
-//       <QuickLinks />
-//       <SpecialOffers />
-//       <BottomNavigation />
-//     </div>
-//   );
-// }
 
-// export default App;
+
+
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import AccountSection from './components/AccountSection';
+import QuickLinks from './components/QuickLinks';
+import SpecialOffers from './components/SpecialOffers';
+import BottomNavigation from './components/BottomNavigation';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+function App() {
+  return (
+    <div className="bg-gray-100 min-h-screen pb-16">
+      <Header />
+      <AccountSection />
+      <QuickLinks />
+      <SpecialOffers />
+      <BottomNavigation />
+    </div>
+  );
+}
+
+export default App;
+
 
 
 
@@ -97,24 +103,24 @@
 
 
 // src/App.js
-import React from 'react';
-import Header from './components/Header';
-import AccountSection from './components/AccountSection';
-import QuickLinks from './components/QuickLinks';
-import SpecialOffers from './components/SpecialOffers';
-import BottomNavigation from './components/BottomNavigation';
+// import React from 'react';
+// import Header from './components/Header';
+// import AccountSection from './components/AccountSection';
+// import QuickLinks from './components/QuickLinks';
+// import SpecialOffers from './components/SpecialOffers';
+// import BottomNavigation from './components/BottomNavigation';
 
-function App() {
-  return (
-    <div className="bg-gray-100 min-h-screen pb-16">
-      <Header />
-      <AccountSection />
-      <QuickLinks />
-      <SpecialOffers />
-      <BottomNavigation />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div className="bg-gray-100 min-h-screen pb-16">
+//       <Header />
+//       <AccountSection />
+//       <QuickLinks />
+//       <SpecialOffers />
+//       <BottomNavigation />
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
 
