@@ -1,4 +1,4 @@
-# Ajozave-Peer Account
+# Ajozave Peer Account
 
 Peer interface for engaging in savings sessions.
 
